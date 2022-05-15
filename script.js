@@ -1,0 +1,4 @@
+function anyaHehe() 
+{
+    alert("hehe");
+}
