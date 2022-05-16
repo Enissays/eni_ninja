@@ -1,6 +1,45 @@
+@font-face { font-family: Terserah; font-weight: bold; src: url('font/Terserah.otf');}
+@font-face { font-family: Gronzy; font-weight: bold; src: url('font/Gronzy.ttf');}
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+h1 {
+  text-align: center;
+  color: black;
+  font-family: Terserah;
+}
+p {
+  text-align: center;
+  font-family: Gronzy;
+  font-size: 35px;
+}
+
+.button {
+  background: rgba(9,9,121,1);
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  margin: 0 auto;
+
+}
+.button img 
+{
+  width:  100px;
+  height: 100px;
+}
+.button p
+{
+  font-size: 20px;
+  padding-left: 20px;
+
+}
