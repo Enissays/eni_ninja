@@ -1,0 +1,43 @@
+@font-face { font-family: Terserah; font-weight: bold; src: url('font/Terserah.otf');}
+@font-face { font-family: Gronzy; font-weight: bold; src: url('font/Gronzy.ttf');}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(184, 153, 215) 0%, rgb(180, 100, 231) 35%, rgb(106, 24, 182) 100%);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(38, 2, 87);
+  font-family: Comic Sans MS;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(189, 227, 221);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+}
+
+img {
+  width: 30%;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
